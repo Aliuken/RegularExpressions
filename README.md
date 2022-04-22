@@ -1,8 +1,8 @@
 # Regular expressions
 
 ## 1. Online tools
-https://regex101.com/
-https://regexr.com/
+* https://regex101.com/
+* https://regexr.com/
 
 ## 2. Regular expression "not starting with":
 https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-with
