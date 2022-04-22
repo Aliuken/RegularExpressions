@@ -74,5 +74,5 @@ https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-word
   ```
 
 * Matches:
-  * **DB`::`**aaa
-  * **DB`::`**classa 
+  * **DB::**aaa
+  * **DB::**classa 
