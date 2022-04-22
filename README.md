@@ -46,10 +46,10 @@ https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-wit
   ```
 
 * Matches:
-  **socket**
-  **sockets**
-  **Socket**
-  **Sockets**
+  * **socket**
+  * **sockets**
+  * **Socket**
+  * **Sockets**
 
 ## 3. Regular expression "word not ending with":
 https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-words
@@ -74,5 +74,5 @@ https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-word
   ```
 
 * Matches:
-  **DB::**aaa
-  **DB::**classa 
+  * **DB::**aaa
+  * **DB::**classa 
