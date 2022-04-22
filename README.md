@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-wit
   ```
 
 * Matches:
-  r**db**ms
+  * r**db**ms
 
 ### 2.2. Example not starting with "web" ignore case
 
