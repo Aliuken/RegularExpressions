@@ -7,7 +7,7 @@
 
 NOTES:
 * In JavaScript regular expressions, replace `/` with `\/`.
-* In Java regular expressions, replace `\` with `\\`.
+* In Java regular expressions, replace `\` with `\\` and `"` with `\"`.
 
 ## 2. Regex for "not starting with":
 https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-with
