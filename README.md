@@ -3,6 +3,7 @@
 ## 1. Online tools
 * https://regex101.com/
 * https://regexr.com/
+* https://www.freeformatter.com/java-regex-tester.html
 
 NOTE:
 * In JavaScript regular expressions, replace `/` with `\/`.
