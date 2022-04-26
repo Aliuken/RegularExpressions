@@ -91,7 +91,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   * `[^\S\r\n]+` means "spaces without line breaks"
   * `\S+` means "everything without spaces and line breaks"
   * there are four groups:
-    * `(^|\s|\(|\/|`)`
+    * `(^|\s|\(|\/|\`)`
     * `(64)`
     * `([^\S\r\n]+\S+)`
     * `(\S+\.sql)`
