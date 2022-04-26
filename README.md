@@ -5,7 +5,7 @@
 * https://regexr.com/
 * https://www.freeformatter.com/java-regex-tester.html
 
-NOTE:
+NOTES:
 * In JavaScript regular expressions, replace `/` with `\/`.
 * In Java regular expressions, replace `\` with `\\`.
 
