@@ -144,7 +144,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
 
 * Input:
   ```txt
-  /path/var0/value1/var1/value2/end1/end2
+  /path/var0/value0/var1/value1/end0/end1
   /path/var1/value1/var2/value2/end1/end2
   ```
 
