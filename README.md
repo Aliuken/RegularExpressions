@@ -111,6 +111,6 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
 
 * Matches:
   * `sqlplus aaa bbb.sql` with:
-    * group 1: `\n`
-    * group 3: ` aaa`
-    * group 4: `bbb.sql`
+    * group 1: "\n"
+    * group 3: " aaa"
+    * group 4: "bbb.sql"
