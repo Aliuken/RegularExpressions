@@ -74,7 +74,7 @@ https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-word
   ```
 
 * Matches:
-  * `**DB::**aaa`
+  * **DB::**aaa
   * **DB::**classa 
 
 ## 4. Regular expressions "spaces without line breaks" and "everything without spaces and line breaks":
@@ -92,7 +92,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   * `\S+` means "everything without spaces and line breaks"
   * there are four groups:
     * `(^|\s|\(|\/|`)`
-    * (64)
+    * `(64)`
     * `([^\S\r\n]+\S+)`
     * `(\S+\.sql)`
 
@@ -109,6 +109,6 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
 
 * Matches:
   * `sqlplus aaa bbb.sql` with:
-    * group 1: "\n"
-    * group 3: " aaa"
-    * group 4: bbb.sql
+    * group 1: `\n`
+    * group 3: ` aaa`
+    * group 4: `bbb.sql`
