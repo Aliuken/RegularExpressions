@@ -93,9 +93,9 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   * there are four groups:
     ```regex
     - group 1: (^|\s|\(|\/|`)
-    * group 2: (64)
-    * group 3: ([^\S\r\n]+\S+)
-    * group 4: (\S+\.sql)
+    - group 2: (64)
+    - group 3: ([^\S\r\n]+\S+)
+    - group 4: (\S+\.sql)
     ```
 
 * Input:
