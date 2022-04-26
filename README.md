@@ -5,8 +5,8 @@
 * https://regexr.com/
 
 NOTE:
-* In JavaScript, replace "/" with "\/".
-* In Java, replace "\" with "\\".
+* In JavaScript, replace `/` with `\/`.
+* In Java, replace `\` with `\\`.
 
 ## 2. Regex for "not starting with":
 https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-with
