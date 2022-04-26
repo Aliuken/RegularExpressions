@@ -4,6 +4,10 @@
 * https://regex101.com/
 * https://regexr.com/
 
+NOTE:
+* In JavaScript, replace "/" with "\/".
+* In Java, replace "\" with "\\".
+
 ## 2. Regex for "not starting with":
 https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-with
 
@@ -11,7 +15,7 @@ https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-wit
 
 * Regex:
   ```regex
-  /(?<!(ado|ADO))db/g
+  (?<!(ado|ADO))db
   ```
 
 * Input:
@@ -24,11 +28,11 @@ https://stackoverflow.com/questions/46162605/regex-match-string-not-starting-wit
 * Matches:
   * r**db**ms
 
-### 2.2. Example not starting with "web" ignore case
+### 2.2. Example not starting with "web" with ignore case
 
-* Regex:
+* Regex with ignore case:
   ```regex
-  /(?<!web)sockets?/gi
+  (?<!web)sockets?
   ```
 
 * Input:
@@ -58,7 +62,7 @@ https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-word
 
 * Regex:
   ```regex
-  /DB::(?!class\W|$)/g
+  DB::(?!class\W|$)
   ```
 
 * Input:
@@ -84,7 +88,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
 
 * Regex:
   ```regex
-  /(^|\s|\(|\/|`)sqlplus(64)?([^\S\r\n]+\S+)*[^\S\r\n]+(\S+\.sql)/g
+  (^|\s|\(|/|`)sqlplus(64)?([^\S\r\n]+\S+)*[^\S\r\n]+(\S+\.sql)
   ```
   
   where:
@@ -92,7 +96,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   * `\S+` means "everything without spaces and line breaks"
   * there are four groups:
     ```regex
-    - group 1: (^|\s|\(|\/|`)
+    - group 1: (^|\s|\(|/|`)
     - group 2: (64)
     - group 3: ([^\S\r\n]+\S+)
     - group 4: (\S+\.sql)
