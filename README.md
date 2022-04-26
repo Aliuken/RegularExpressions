@@ -76,3 +76,40 @@ https://stackoverflow.com/questions/6830796/regex-to-match-anything-but-two-word
 * Matches:
   * **DB::**aaa
   * **DB::**classa 
+
+## 4. Regular expressions "spaces without line breaks" and "everything without spaces and line breaks":
+https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
+
+### 4.1. Example sqlplus or sqlplus64 with possible intermediate words and an sql file name
+
+* Regex:
+  ```regex
+  /(^|\s|\(|\/|`)sqlplus(64)?([^\S\r\n]+\S+)*[^\S\r\n]+(\S+\.sql)/g
+  ```
+  
+  where:
+  * `[^\S\r\n]+` means "spaces without line breaks"
+  * `\S+` means "everything without spaces and line breaks"
+  * there are four groups:
+    * `(^|\s|\(|\/|`)`
+    * (64)
+    * `([^\S\r\n]+\S+)`
+    * `(\S+\.sql)`
+
+* Input:
+  ```txt
+  sqlplus aa
+  a bbb.sql
+  
+  sqlplus aaa bb
+  b.sql
+  
+  sqlplus aaa bbb.sql
+  ```
+
+* Matches:
+  * sqlplus aaa bbb.sql
+    with:
+    * group 1: "\n"
+    * group 3: " aaa"
+    * group 4: bbb.sql
