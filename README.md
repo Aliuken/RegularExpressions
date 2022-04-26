@@ -149,7 +149,7 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   ```
 
 * Matches:
-  * **/path/var1/value1/var2/value2/end** with:
+  * **/path/var1/value1/var2/value2/end1/end2** with:
     * group 1: "value1"
     * group 2: "value2"
     * group 3: "end1/end2"
