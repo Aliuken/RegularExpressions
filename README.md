@@ -110,12 +110,18 @@ https://stackoverflow.com/questions/3469080/match-whitespace-but-not-newlines
   sqlplus aaa bb
   b.sql
   
+  sqlplus aaa.sql
+  
   sqlplus aaa bbb.sql
   
   sqlplus64 aaa bbb.sql
   ```
 
 * Matches:
+  * **sqlplus aaa.sql** with:
+    * group 1: "\n"
+    * group 4: "aaa.sql"
+
   * **sqlplus aaa bbb.sql** with:
     * group 1: "\n"
     * group 3: " aaa"
